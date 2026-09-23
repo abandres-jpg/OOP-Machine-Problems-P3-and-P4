@@ -91,7 +91,7 @@ public class InventoryStockMonitor {
                     if (product.sell(quantity)) {
                         System.out.println("Product sold.");
                     } else {
-                        System.out.println("Not enough stock or invalid quantity.");
+                        System.out.println("Sale Rejected.");
                     }
                 } else {
                     System.out.println("Invalid transaction.");
